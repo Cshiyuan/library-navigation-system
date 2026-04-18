@@ -1,0 +1,411 @@
+[ 2016-10-31T00:00:07+08:00 ] ::1 /LibraryWeb-master/index.php/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002872s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0130s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bs_book` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `book_ID`,`category`,`book_name`,`slf_name`,`author`,`pub_house`,`search_time`,`is_onslf` FROM `bs_book` ORDER BY book_ID desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000518s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009200s ]
+
+[ 2016-10-31T00:03:33+08:00 ] ::1 /LibraryWeb-master/index.php/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002788s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0123s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bs_book` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `book_ID`,`category`,`book_name`,`slf_name`,`author`,`pub_house`,`search_time`,`is_onslf` FROM `bs_book` ORDER BY book_ID desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000625s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052603s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001905s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010598s ]
+
+[ 2016-10-31T00:04:05+08:00 ] ::1 /LibraryWeb-master/index.php/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002785s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0635s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bs_book` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `book_ID`,`category`,`book_name`,`slf_name`,`author`,`pub_house`,`search_time`,`is_onslf` FROM `bs_book` ORDER BY book_ID desc LIMIT 0,10   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000518s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051742s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002428s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011944s ]
+
+[ 2016-10-31T00:18:58+08:00 ] ::1 /LibraryWeb-master/index.php/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000106s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004179s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0704s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bs_book` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `book_ID`,`category`,`book_name`,`slf_name`,`author`,`pub_house`,`search_time`,`is_onslf` FROM `bs_book` ORDER BY book_ID desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003723s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001896s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016042s ]
+
+[ 2016-10-31T00:19:06+08:00 ] ::1 /LibraryWeb-master/index.php/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006946s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0558s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bs_book` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `book_ID`,`category`,`book_name`,`slf_name`,`author`,`pub_house`,`search_time`,`is_onslf` FROM `bs_book` ORDER BY book_ID desc LIMIT 0,10   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000535s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001081s ]
+NOTIC: [2] include(../include/dbconnect.php): failed to open stream: No such file or directory D:\php_code\LibraryWeb-master\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 141 行.
+NOTIC: [2] include(): Failed opening '../include/dbconnect.php' for inclusion (include_path='.;C:\php\pear') D:\php_code\LibraryWeb-master\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 141 行.
+NOTIC: [8192] mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\php_code\LibraryWeb-master\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 141 行.
+NOTIC: [2] mysql_query():  D:\php_code\LibraryWeb-master\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 141 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established D:\php_code\LibraryWeb-master\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 141 行.
+NOTIC: [2] mysql_fetch_assoc() expects parameter 1 to be resource, boolean given D:\php_code\LibraryWeb-master\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 141 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107734s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003282s ]
+
+[ 2016-10-31T00:19:18+08:00 ] ::1 /LibraryWeb-master/index.php/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004270s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0564s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bs_book` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `book_ID`,`category`,`book_name`,`slf_name`,`author`,`pub_house`,`search_time`,`is_onslf` FROM `bs_book` ORDER BY book_ID desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000541s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001082s ]
+NOTIC: [2] include(../include/dbconnect.php): failed to open stream: No such file or directory D:\php_code\LibraryWeb-master\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 141 行.
+NOTIC: [2] include(): Failed opening '../include/dbconnect.php' for inclusion (include_path='.;C:\php\pear') D:\php_code\LibraryWeb-master\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 141 行.
+NOTIC: [8192] mysql_query(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\php_code\LibraryWeb-master\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 141 行.
+NOTIC: [2] mysql_query():  D:\php_code\LibraryWeb-master\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 141 行.
+NOTIC: [2] mysql_query(): A link to the server could not be established D:\php_code\LibraryWeb-master\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 141 行.
+NOTIC: [2] mysql_fetch_assoc() expects parameter 1 to be resource, boolean given D:\php_code\LibraryWeb-master\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 141 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002707s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003260s ]
+
+[ 2016-10-31T00:21:25+08:00 ] ::1 /LibraryWeb-master/index.php/Index/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002921s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0116s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bs_book` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `book_ID`,`category`,`book_name`,`slf_name`,`author`,`pub_house`,`search_time`,`is_onslf` FROM `bs_book` ORDER BY book_ID desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000528s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002429s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004995s ]
+
+[ 2016-10-31T00:21:33+08:00 ] ::1 /LibraryWeb-master/index.php/Index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002938s ]
+NOTIC: [8] Undefined index: search_info D:\php_code\LibraryWeb-master\Application\Admin\Controller\IndexController.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000342s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000893s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002220s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002734s ]
+
+[ 2016-10-31T00:21:34+08:00 ] ::1 /LibraryWeb-master/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003007s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0137s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bs_book` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `book_ID`,`category`,`book_name`,`slf_name`,`author`,`pub_house`,`search_time`,`is_onslf` FROM `bs_book` WHERE `book_name` LIKE '%%' ORDER BY book_ID desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000533s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051485s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018429s ]
+
+[ 2016-10-31T00:24:24+08:00 ] ::1 /LibraryWeb-master/index.php/Index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000141s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003383s ]
+NOTIC: [8] Undefined index: search_info D:\php_code\LibraryWeb-master\Application\Admin\Controller\IndexController.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000806s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001990s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002518s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002933s ]
+
+[ 2016-10-31T00:24:25+08:00 ] ::1 /LibraryWeb-master/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002758s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0113s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bs_book` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `book_ID`,`category`,`book_name`,`slf_name`,`author`,`pub_house`,`search_time`,`is_onslf` FROM `bs_book` WHERE `book_name` LIKE '%%' ORDER BY book_ID desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000536s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053250s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003861s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018267s ]
+
+[ 2016-10-31T00:24:31+08:00 ] ::1 /LibraryWeb-master/index.php/Index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003755s ]
+NOTIC: [8] Undefined index: search_info D:\php_code\LibraryWeb-master\Application\Admin\Controller\IndexController.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000264s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000826s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001996s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002233s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002753s ]
+
+[ 2016-10-31T00:24:33+08:00 ] ::1 /LibraryWeb-master/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000357s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003164s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004555s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0103s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bs_book` LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `book_ID`,`category`,`book_name`,`slf_name`,`author`,`pub_house`,`search_time`,`is_onslf` FROM `bs_book` WHERE `book_name` LIKE '%%' ORDER BY book_ID desc LIMIT 0,10   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000541s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001085s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058197s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017611s ]
+
+[ 2016-10-31T00:29:46+08:00 ] ::1 /LibraryWeb-master/index.php/Index/search
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006955s ]
+NOTIC: [8] Undefined index: search_info D:\php_code\LibraryWeb-master\Application\Admin\Controller\IndexController.class.php 第 121 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000857s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026533s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002802s ]
+
+[ 2016-10-31T00:29:49+08:00 ] ::1 /LibraryWeb-master/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003170s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0222s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bs_book` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `book_ID`,`category`,`book_name`,`slf_name`,`author`,`pub_house`,`search_time`,`is_onslf` FROM `bs_book` WHERE `book_name` LIKE '%%' ORDER BY book_ID desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000536s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053426s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002618s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010672s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013711s ]
+
+[ 2016-10-31T00:30:01+08:00 ] ::1 /LibraryWeb-master/index.php/index/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002971s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.0154s ]
+SQL: SELECT `workID`,`admin_name`,`email`,`telephone`,`last_date`,`last_ip`,`login_num`,`regdate` FROM `bs_administrator` WHERE `workID` = 6 LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000432s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000997s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.028626s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.032016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003341s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003920s ]
+
+[ 2016-10-31T00:30:05+08:00 ] ::1 /LibraryWeb-master/index.php/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002797s ]
+
+[ 2016-10-31T00:30:07+08:00 ] ::1 /LibraryWeb-master/index.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002867s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000906s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\php_code\LibraryWeb-master\Application\Runtime\Cache\Admin\0dfec61edd66f450033aa87c28a760f4.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003059s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003609s ]
+
+[ 2016-10-31T00:30:07+08:00 ] ::1 /LibraryWeb-master/index.php/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000123s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004054s ]
+

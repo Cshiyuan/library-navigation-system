@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BookInfoIdentifier" id="KGk-i7-Jjw" customClass="CSYBookInfoCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4F1-ex-w4W">
+                        <rect key="frame" x="8" y="8" width="83" height="83"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="4F1-ex-w4W" secondAttribute="height" multiplier="1:1" id="8Lj-H4-VpS"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ged-Xq-Hsa">
+                        <rect key="frame" x="101" y="8" width="211" height="83.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="离散数学" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uyv-jh-1c0">
+                                <rect key="frame" x="0.0" y="0.0" width="211" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="出版社：高等教育出版社" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Pn-WX-4xQ">
+                                <rect key="frame" x="0.0" y="28" width="211" height="27.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="作者：同济大学数学系  书架：F2183" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="elx-OJ-thN">
+                                <rect key="frame" x="0.0" y="55.5" width="211" height="28"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4F1-ex-w4W" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Drt-0c-zeR"/>
+                    <constraint firstItem="ged-Xq-Hsa" firstAttribute="leading" secondItem="4F1-ex-w4W" secondAttribute="trailing" constant="10" id="EwR-F6-53n"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ged-Xq-Hsa" secondAttribute="bottom" id="MJ5-8e-Xkb"/>
+                    <constraint firstItem="ged-Xq-Hsa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="TVu-8A-JtF"/>
+                    <constraint firstItem="4F1-ex-w4W" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="ezr-nX-nOB"/>
+                    <constraint firstItem="4F1-ex-w4W" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="pwa-3w-EBX"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="ged-Xq-Hsa" secondAttribute="trailing" id="v6z-Y0-fnY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bKImageView" destination="4F1-ex-w4W" id="tU0-eA-37v"/>
+                <outlet property="bKNameLabel" destination="uyv-jh-1c0" id="Cs6-fE-QlH"/>
+                <outlet property="bKPubNameLabel" destination="8Pn-WX-4xQ" id="8vO-CE-td0"/>
+                <outlet property="detailInfoLabel" destination="elx-OJ-thN" id="0DK-BM-czC"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

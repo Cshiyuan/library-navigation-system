@@ -1,0 +1,705 @@
+[ 2016-10-27T23:32:39+08:00 ] ::1 /LibraryWeb-master/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.026636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013859s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.008257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.008865s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002678s ]
+
+[ 2016-10-27T23:32:43+08:00 ] ::1 /LibraryWeb-master/index.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001875s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001361s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\php_code\LibraryWeb-master\Application\Runtime\Cache\Admin\0dfec61edd66f450033aa87c28a760f4.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001680s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002232s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006168s ]
+
+[ 2016-10-27T23:32:43+08:00 ] ::1 /LibraryWeb-master/index.php/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003525s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003635s ]
+
+[ 2016-10-27T23:32:59+08:00 ] ::1 /LibraryWeb-master/index.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005458s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.1624s ]
+NOTIC: [8] Undefined index: validate D:\php_code\LibraryWeb-master\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php_code\LibraryWeb-master\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `workID`,`admin_name`,`password`,`last_date`,`last_ip` FROM `bs_administrator` WHERE `admin_name` = 'admin' LIMIT 1   [ RunTime:0.0457s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.0154s ]
+SQL: UPDATE `bs_administrator` SET `login_num`=login_num+1 WHERE `admin_name` = 'admin' AND `workID` = 1 [ RunTime:0.0221s ]
+SQL: UPDATE `bs_administrator` SET `admin_name`='admin',`password`='21232f297a57a5a743894a0e4a801fc3',`last_date`='1477582379',`last_ip`='0.0.0.0' WHERE `admin_name` = 'admin' AND `workID` = 1 [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000851s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001898s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002536s ]
+
+[ 2016-10-27T23:33:01+08:00 ] ::1 /LibraryWeb-master/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002264s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0626s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bs_book` LIMIT 1   [ RunTime:0.0486s ]
+SQL: SELECT `book_ID`,`category`,`book_name`,`slf_name`,`author`,`pub_house`,`search_time`,`is_onslf` FROM `bs_book` WHERE `book_name` LIKE '%%' ORDER BY book_ID desc LIMIT 0,10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000559s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018575s ]
+
+[ 2016-10-27T23:33:05+08:00 ] ::1 /LibraryWeb-master/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002761s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0171s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bs_book` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `book_ID`,`category`,`book_name`,`slf_name`,`author`,`pub_house`,`search_time`,`is_onslf` FROM `bs_book` ORDER BY book_ID desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000891s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001644s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050767s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002793s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003371s ]
+
+[ 2016-10-27T23:33:16+08:00 ] ::1 /LibraryWeb-master/index.php/index/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002754s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.0149s ]
+SQL: SELECT `workID`,`admin_name`,`email`,`telephone`,`last_date`,`last_ip`,`login_num`,`regdate` FROM `bs_administrator` WHERE `workID` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000406s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000940s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015429s ]
+
+[ 2016-10-27T23:33:20+08:00 ] ::1 /LibraryWeb-master/index.php/Index/edit_user/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006058s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `bs_administrator` WHERE `workID` = 1 LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2016-10-27T23:33:27+08:00 ] ::1 /LibraryWeb-master/index.php/index/save2/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000221s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002193s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.0152s ]
+NOTIC: [8] Undefined index: validate D:\php_code\LibraryWeb-master\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php_code\LibraryWeb-master\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [2] md5() expects at least 1 parameter, 0 given D:\php_code\LibraryWeb-master\ThinkPHP\Library\Think\Model.class.php 第 1154 行.
+SQL: UPDATE `bs_administrator` SET `admin_name`='admin',`email`='773326002@qq.com',`telephone`='15521229765',`password`=NULL,`regdate`='1477582407' WHERE `workID` = 1 [ RunTime:0.0647s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000827s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001701s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001796s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002323s ]
+
+[ 2016-10-27T23:33:29+08:00 ] ::1 /LibraryWeb-master/index.php/Index/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001710s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002746s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.0143s ]
+SQL: SELECT `workID`,`admin_name`,`email`,`telephone`,`last_date`,`last_ip`,`login_num`,`regdate` FROM `bs_administrator` WHERE `workID` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000407s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000940s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015105s ]
+
+[ 2016-10-27T23:37:42+08:00 ] ::1 /LibraryWeb-master/index.php/Index/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000169s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003112s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.0152s ]
+SQL: SELECT `workID`,`admin_name`,`email`,`telephone`,`last_date`,`last_ip`,`login_num`,`regdate` FROM `bs_administrator` WHERE `workID` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000412s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000951s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002797s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012506s ]
+
+[ 2016-10-27T23:37:45+08:00 ] ::1 /LibraryWeb-master/index.php/Index/edit_user/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005202s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.0356s ]
+SQL: SELECT * FROM `bs_administrator` WHERE `workID` = 1 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2016-10-27T23:37:53+08:00 ] ::1 /LibraryWeb-master/index.php/Index/save2/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003952s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.0232s ]
+NOTIC: [8] Undefined index: validate D:\php_code\LibraryWeb-master\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `bs_administrator` WHERE `admin_name` = 'admin' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000837s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002927s ]
+
+[ 2016-10-27T23:37:57+08:00 ] ::1 /LibraryWeb-master/index.php/index/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000108s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004079s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.0147s ]
+SQL: SELECT `workID`,`admin_name`,`email`,`telephone`,`last_date`,`last_ip`,`login_num`,`regdate` FROM `bs_administrator` WHERE `workID` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000441s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045728s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014196s ]
+
+[ 2016-10-27T23:39:45+08:00 ] ::1 /LibraryWeb-master/index.php/index/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001838s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005355s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.0157s ]
+SQL: SELECT `workID`,`admin_name`,`email`,`telephone`,`last_date`,`last_ip`,`login_num`,`regdate` FROM `bs_administrator` WHERE `workID` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000428s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044428s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002752s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012353s ]
+
+[ 2016-10-27T23:39:48+08:00 ] ::1 /LibraryWeb-master/index.php/Index/edit_user/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000112s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006405s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.0901s ]
+SQL: SELECT * FROM `bs_administrator` WHERE `workID` = 1 LIMIT 1   [ RunTime:0.0015s ]
+
+[ 2016-10-27T23:39:53+08:00 ] ::1 /LibraryWeb-master/index.php/index/save2/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004128s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.0141s ]
+NOTIC: [8] Undefined index: validate D:\php_code\LibraryWeb-master\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php_code\LibraryWeb-master\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `bs_administrator` SET `admin_name`='admin',`email`='773326002@qq.com',`telephone`='15521229761' WHERE `workID` = 1 [ RunTime:0.0041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000289s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000903s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028033s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004661s ]
+
+[ 2016-10-27T23:39:54+08:00 ] ::1 /LibraryWeb-master/index.php/Index/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001881s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006241s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.1068s ]
+SQL: SELECT `workID`,`admin_name`,`email`,`telephone`,`last_date`,`last_ip`,`login_num`,`regdate` FROM `bs_administrator` WHERE `workID` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000423s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000994s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010681s ]
+
+[ 2016-10-27T23:41:45+08:00 ] ::1 /LibraryWeb-master/index.php/Index/edit_user/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015843s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.0196s ]
+SQL: SELECT * FROM `bs_administrator` WHERE `workID` = 1 LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2016-10-27T23:41:51+08:00 ] ::1 /LibraryWeb-master/index.php/Index/save2/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000145s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006400s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.0149s ]
+NOTIC: [8] Undefined index: validate D:\php_code\LibraryWeb-master\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php_code\LibraryWeb-master\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `bs_administrator` SET `admin_name`='admin',`email`='773326001@qq.com',`telephone`='15521229761' WHERE `workID` = 1 [ RunTime:0.0056s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000831s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002848s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003161s ]
+
+[ 2016-10-27T23:41:52+08:00 ] ::1 /LibraryWeb-master/index.php/Index/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005308s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.0154s ]
+SQL: SELECT `workID`,`admin_name`,`email`,`telephone`,`last_date`,`last_ip`,`login_num`,`regdate` FROM `bs_administrator` WHERE `workID` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000419s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000997s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042666s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021388s ]
+
+[ 2016-10-27T23:42:04+08:00 ] ::1 /LibraryWeb-master/index.php/Login/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001944s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003364s ]
+
+[ 2016-10-27T23:42:06+08:00 ] ::1 /LibraryWeb-master/index.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003125s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000859s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\php_code\LibraryWeb-master\Application\Runtime\Cache\Admin\0dfec61edd66f450033aa87c28a760f4.php 第 91 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029181s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002785s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004073s ]
+
+[ 2016-10-27T23:42:06+08:00 ] ::1 /LibraryWeb-master/index.php/Login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000279s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003593s ]
+
+[ 2016-10-27T23:43:08+08:00 ] ::1 /LibraryWeb-master/index.php/Login/verify.html?0.17602495645766914
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003652s ]
+
+[ 2016-10-27T23:43:10+08:00 ] ::1 /LibraryWeb-master/index.php/Login/verify.html?0.17602495645766914?0.16623702321896017
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004214s ]
+
+[ 2016-10-27T23:43:16+08:00 ] ::1 /LibraryWeb-master/index.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003558s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.0145s ]
+NOTIC: [8] Undefined index: validate D:\php_code\LibraryWeb-master\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto D:\php_code\LibraryWeb-master\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `workID`,`admin_name`,`password`,`last_date`,`last_ip` FROM `bs_administrator` WHERE `admin_name` = 'admin' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.0157s ]
+SQL: UPDATE `bs_administrator` SET `login_num`=login_num+1 WHERE `admin_name` = 'admin' AND `workID` = 1 [ RunTime:0.0035s ]
+SQL: UPDATE `bs_administrator` SET `admin_name`='admin',`password`='21232f297a57a5a743894a0e4a801fc3',`last_date`='1477582996',`last_ip`='0.0.0.0' WHERE `admin_name` = 'admin' AND `workID` = 1 [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000824s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029409s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002581s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004650s ]
+
+[ 2016-10-27T23:43:18+08:00 ] ::1 /LibraryWeb-master/index.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000114s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001988s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003237s ]
+SQL: SHOW COLUMNS FROM `bs_book` [ RunTime:0.0733s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `bs_book` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `book_ID`,`category`,`book_name`,`slf_name`,`author`,`pub_house`,`search_time`,`is_onslf` FROM `bs_book` WHERE `book_name` LIKE '%%' ORDER BY book_ID desc LIMIT 0,10   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001683s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055516s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018211s ]
+
+[ 2016-10-27T23:43:22+08:00 ] ::1 /LibraryWeb-master/index.php/Index/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005328s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000368s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001633s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\php_code\LibraryWeb-master\Application\Runtime\Cache\Admin\52be8035eaf2b2a29247a44bcbae6036.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.017539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018431s ]
+
+[ 2016-10-27T23:43:22+08:00 ] ::1 /LibraryWeb-master/index.php/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005106s ]
+
+[ 2016-10-27T23:43:47+08:00 ] ::1 /LibraryWeb-master/index.php/Index/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000110s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008514s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.0159s ]
+NOTIC: [8] Undefined index: validate D:\php_code\LibraryWeb-master\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+SQL: SELECT * FROM `bs_administrator` WHERE `admin_name` = 'admin' LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000826s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002665s ]
+
+[ 2016-10-27T23:43:50+08:00 ] ::1 /LibraryWeb-master/index.php/index/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000379s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001334s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\php_code\LibraryWeb-master\Application\Runtime\Cache\Admin\52be8035eaf2b2a29247a44bcbae6036.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037728s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007899s ]
+
+[ 2016-10-27T23:43:50+08:00 ] ::1 /LibraryWeb-master/index.php/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003422s ]
+
+[ 2016-10-27T23:52:53+08:00 ] ::1 /LibraryWeb-master/index.php/index/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003288s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000372s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000916s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' D:\php_code\LibraryWeb-master\Application\Runtime\Cache\Admin\52be8035eaf2b2a29247a44bcbae6036.php 第 140 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002788s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018805s ]
+
+[ 2016-10-27T23:52:55+08:00 ] ::1 /LibraryWeb-master/index.php/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001976s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006733s ]
+
+[ 2016-10-27T23:52:59+08:00 ] ::1 /LibraryWeb-master/index.php/index/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003481s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.0806s ]
+SQL: SELECT `workID`,`admin_name`,`email`,`telephone`,`last_date`,`last_ip`,`login_num`,`regdate` FROM `bs_administrator` WHERE `workID` = 1 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000465s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002392s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050722s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002264s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002797s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016045s ]
+
+[ 2016-10-27T23:53:07+08:00 ] ::1 /LibraryWeb-master/index.php/Index/edit_user/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002539s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004511s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.0640s ]
+NOTIC: [8] Undefined variable: where D:\php_code\LibraryWeb-master\Application\Admin\Controller\IndexController.class.php 第 351 行.
+ERR: 1054:Champ 'edit_email' inconnu dans field list
+ [ SQL语句 ] : SELECT `admin_name`,`edit_email`,`edit_telephone` FROM `bs_administrator` LIMIT 1  
+ERR: 1054:Champ 'edit_email' inconnu dans field list
+ [ SQL语句 ] : SELECT `admin_name`,`edit_email`,`edit_telephone` FROM `bs_administrator` LIMIT 1  
+
+[ 2016-10-27T23:53:37+08:00 ] ::1 /LibraryWeb-master/index.php/index/information.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003119s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.0699s ]
+SQL: SELECT `workID`,`admin_name`,`email`,`telephone`,`last_date`,`last_ip`,`login_num`,`regdate` FROM `bs_administrator` WHERE `workID` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000426s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001017s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005864s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014430s ]
+
+[ 2016-10-27T23:53:39+08:00 ] ::1 /LibraryWeb-master/index.php/Index/edit_user/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000111s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006465s ]
+SQL: SHOW COLUMNS FROM `bs_administrator` [ RunTime:0.0679s ]
+SQL: SELECT * FROM `bs_administrator` WHERE `workID` = 1 LIMIT 1   [ RunTime:0.0008s ]
+
